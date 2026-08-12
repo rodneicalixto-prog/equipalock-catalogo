@@ -1,21 +1,22 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/",
-      "destination": "/catalogo-equipalok-locacao-whatsapp-FINAL-CTA-v2.pdf"
+      "destination": "/catalogo-equipalok-oficial.pdf",
+      "permanent": false
     }
   ],
   "headers": [
     {
-      "source": "/catalogo-equipalok-locacao-whatsapp-FINAL-CTA-v2.pdf",
+      "source": "/catalogo-equipalok-oficial.pdf",
       "headers": [
         {
           "key": "Content-Disposition",
-          "value": "inline; filename=catalogo-equipalok.pdf"
+          "value": "inline; filename=catalogo-equipalok-oficial.pdf"
         },
         {
           "key": "Cache-Control",
-          "value": "public, max-age=0, must-revalidate"
+          "value": "no-store, max-age=0"
         }
       ]
     }
